@@ -18,7 +18,7 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
-    /*@Bean
+    @Bean
     public CommandLineRunner demo(AddressBookRepository repository, BuddyInfoRepository buddyRep) {
         return args -> {
             AddressBook addressBook1 = new AddressBook();
@@ -59,6 +59,6 @@ public class Application {
             log.info("");
 
         };
-    }*/
+    }
 
 }

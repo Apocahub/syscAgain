@@ -10,7 +10,7 @@ public class GreetingController {
 
     @RequestMapping("/")
     public @ResponseBody String greeting() {
-        return "Hello SYSC 4806";
+        return "Hello World";
     }
 
     private final GoodbyeService service;
